@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.loading{
+    /* background-color: black; */
+    border: 10px solid gray;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-top:10px solid black ;
+    animation: kenarlik 0.7s ease-in-out infinite;
+}
+
+@keyframes kenarlik{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
